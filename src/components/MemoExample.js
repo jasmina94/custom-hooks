@@ -10,7 +10,7 @@ const MemoExample = ({ obj }) => {
 
     useEffect(() => {
         return objFinal.someMethod().then((value) => setState(value));
-    }, [objFinal.id]);
+    }, [objFinal.id]); //es-lint 
 
     return (
         <div>

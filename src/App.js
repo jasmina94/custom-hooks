@@ -32,6 +32,7 @@ const App = () => {
         <Route exact path='/stopwatch' component={Stopwatch}></Route>
         <Route exact path='/counter' component={MyUseStateContainer}></Route>
         <Route exact path='/settings' component={SettingsContainer}></Route>
+        <Route exact path='/memoCompare' component={MemoContainer}></Route>
         <Route exact path='/asyncExample' component={AsyncContainer}></Route>
       </div>
     </Router>
